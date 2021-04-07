@@ -37,7 +37,7 @@ Shop.prototype.totalCookies = function () {
 let seattle = new Shop('Seattle', 23, 26, 6.3);
 let tokyo = new Shop('Tokyo', 3, 24, 1.2);
 let dubai = new Shop('Dubai', 11, 38, 3.7);
-let paris = new Shop('Pris', 20, 38, 2.3);
+let paris = new Shop('Paris', 20, 38, 2.3);
 let lima = new Shop('Lima', 2, 16, 4.6);
 
 
@@ -53,7 +53,7 @@ function header() {
     table.appendChild(headingRow);
     let thElement = document.createElement('th');
     headingRow.appendChild(thElement);
-    thElement.textContent = "  ";
+    thElement.textContent = "Location Name";
     for (let i = 0; i < hoursOpen.length; i++) {
         let hElement = document.createElement('th');
         headingRow.appendChild(hElement);
@@ -104,6 +104,48 @@ function footer() {
     footerRow.appendChild(totalOfTotalsElement);
     totalOfTotalsElement.textContent = totals;
 };
+
+// create an object from HTML form;
+let shopForm = document.getElementById('shopForm');
+
+shopForm.addEventListener('submit', addNewShop);
+
+function addNewShop(event) {
+    event.preventDefault();
+
+    console.log(event);
+
+    let name = event.target.locationName.value;
+    console.log(name);
+    let min = event.target.minValue.value;
+    console.log(min);
+    let max = event.target.maxValue.value;
+    console.log(max);
+    let avg = event.target.avgValue.value;
+    console.log(avg);
+    
+    let newShop = new Shop(name,min,max,avg);
+    console.log(newShop);
+
+    // newShop.custPerHour();
+    // newShop.avgCookiePerHour();
+    // newShop.totalCookies();
+    // newShop.render();
+
+    let cotainer = document.getElementById('parent');
+    table.textContent=""; 
+
+    header();
+    for (let i = 0; i < shpos.length; i++) {
+        shpos[i].custPerHour();
+        shpos[i].avgCookiePerHour();
+        shpos[i].total=0;
+        shpos[i].totalCookies();
+        shpos[i].render();
+    }
+    footer();
+}
+
 
 header();
 for (let i = 0; i < shpos.length; i++) {

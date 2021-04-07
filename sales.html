@@ -2,13 +2,53 @@
 <html>
 <head>
     <title>Cookie Stand</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+   
 
 </head>
 <body>
-    <a href="index.html"></a>
-    <div id="parent"></div>
+    <header id="sales">
+        <h1>Sales Data</h1>
+        <a href="index.html">Home Page</a>
+    </header>
+    <main>
+        <form action="" id="shopForm">
+            <fieldset>
+                <label for="locationName">Location Name</label>
+                <input type="text" id="loctionName" name="locationName">
+
+                <br>
+                <br>
+
+                <label for="minValue">Minimum Customers Per Hour</label>
+                <input type="text" id="minValue" name="minValue">
+
+                <br>
+                <br>
+
+                <label for="maxValue">Maximum Customers Per Hour</label>
+                <input type="text" id="maxValue" name="maxValue">
+
+                <br>
+                <br>
+
+                <label for="avgValue">Average Cookies Per Hour</label>
+                <input type="text" id="avgValue" name="avgValue" step="any">
+
+                <br>
+                <br>
+
+                <input type="submit" value="click here to add" id="button">
+
+
+            </fieldset>
+        </form>
+        <div id="parent"></div>
+
+    </main>
     <script src="js/app.js"></script>
 </body>
 </html>
