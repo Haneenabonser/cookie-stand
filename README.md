@@ -1,11 +1,12 @@
-# LAB 07 
+# LAB 08b
 
 ## Cookie Stand 
-In this website I used DOM to add and creat elememts in the html file. I created a table and a constructor function. 
+In this website I used DOM to add and creat elememts in the html file. I created a table and a constructor function.
+I added some html elements. 
 
 **Author**: Haneen Abonser
 
 **Reflections and Comments**
 - Overall, this is going fine so far.
 - I do not have any questions.
-- I thought this will take days, and I think it will take days.
+- It took 15 mins.
