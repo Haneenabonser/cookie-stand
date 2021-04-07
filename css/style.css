@@ -1,10 +1,161 @@
 *{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Kiwi Maru', serif;
 }
 
-
-table,th,td,tr{
-    border-collapse: collapse;
+body{
+    background-color: whitesmoke;
+}
+#sales{
+    height: 100px;
+    font-family: 'Kiwi Maru', serif;
+}
+#sales h1{
+    float: left;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ddaf8c;
+    padding: 25px;
+}
+#sales a{
+    float: right;
+    text-decoration: none;
+    color: #557174;
+    font-weight: bold;
+    padding: 40px;
+    padding-right: 750px;
+    padding-top: 45px;
+}
+#sales a:hover{
+    color: brown;
+}
+#shopForm{
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 100px;
     border: 1px solid black;
+    padding: 20px;
+    background-color:#c7cfb7;
+    font-weight: bold;
+} 
 
+#parent{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 65%;
+
+}
+table tr td,th {
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 4px;  
+    font-weight: bold;  
+    background-color: #f7f7e8;
+}
+#button{
+    background-color:#eabf9f ;
+    margin-top: 5px;
+    font-size: large;
+}
+
+#button:hover{
+    background-color: brown;
+}
+
+/* styling index.html 
+*/
+
+header{
+    font-family: 'Kiwi Maru', serif;
+    height: 120px;
+}
+header h1{
+    float: left;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ddaf8c;
+    padding: 25px;
+}
+
+header nav{
+    margin-right: 20%;
+}
+
+header nav ul li{
+    float: right;
+    display: inline-block;
+    padding: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ddaf8c;
+    font-size: 20px;
+}
+
+a:hover{
+    color: brown;
+}
+
+.img{
+    text-align: center;
+    padding: 30px ;
+
+}
+#last{
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#last div{
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    padding:25px;
+    width: 35%;
+    height: 40%;
+    font-weight: bolder;
+    margin-left: 25px;
+    font-size: 24px;
+    background-color: #ddaf8c;
+
+}
+#locations{
+    text-align: center;
+    margin-top: 30px;
+}
+#locations h3{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+#list{
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 5px;
+    padding-top: 3px;
+
+}
+ ul li{
+     list-style-type: square;
+
+}
+
+footer p{
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bolder;
+    color:#557174;
+    vertical-align: middle;
+    /* background-color: #ddaf8c; */
 }
