@@ -1,12 +1,16 @@
-# LAB 08b
+# LAB 09
 
 ## Cookie Stand 
-In this website I used DOM to add and creat elememts in the html file. I created a table and a constructor function.
-I added some html elements and some styling. 
+
+I added an html form to the web page and some styling.
+
 
 **Author**: Haneen Abonser
+
+**Refereces**
+W3Schools.com
 
 **Reflections and Comments**
 - Overall, this is going fine so far.
 - I do not have any questions.
-- It took 15 mins.
+- It took me 4 hours to finish this lab.
