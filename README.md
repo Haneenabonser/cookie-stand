@@ -1,7 +1,9 @@
 # LAB 09
 
 ## Cookie Stand 
+
 I added an html form to the web page and some styling.
+
 
 **Author**: Haneen Abonser
 
