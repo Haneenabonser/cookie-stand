@@ -2,7 +2,7 @@
 
 ## Cookie Stand 
 In this website I used DOM to add and creat elememts in the html file. I created a table and a constructor function.
-I added some html elements. 
+I added some html elements and some styling. 
 
 **Author**: Haneen Abonser
 
