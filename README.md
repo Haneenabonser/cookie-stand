@@ -1,4 +1,4 @@
-# LAB 09
+# LAB 10b
 
 ## Cookie Stand 
 I added an html form to the web page and some styling.
@@ -9,6 +9,6 @@ I added an html form to the web page and some styling.
 W3Schools.com
 
 **Reflections and Comments**
-- Overall, this is going fine so far.
+- Overall, this project was very hard but worthit.
 - I do not have any questions.
-- It took me 4 hours to finish this lab.
+- It took me 2 hours to finish this lab.
