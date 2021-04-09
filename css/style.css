@@ -188,13 +188,6 @@ main .imgL{
     color: black;
     margin-bottom: 45px;
 }
-/* #list{
-    font-weight: bolder;
-    font-size: 25px;
-    padding: 5px;
-    padding-top: 3px; */
-
-
 .list{
     border: solid 2px black;
     width: 100px;
@@ -204,9 +197,6 @@ main .imgL{
     background-image: linear-gradient(#ddaf8c,#faf3e0);
     margin-top: 15px;
     /* display: inline; */
-}
-
-
 }
 
 *{
